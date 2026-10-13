@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "math",
+    "query": "What is 15% of 230?",
+    "expected_intent": "tool-use",
+    "expected_tool": "calculator",
+    "key_elements": ["34.5", "result"]
+  },
+  {
+    "id": 2,
+    "category": "math",
+    "query": "Calculate 125 * 8 + 450",
+    "expected_intent": "tool-use",
+    "expected_tool": "calculator",
+    "key_elements": ["1450", "result"]
+  },
+  {
+    "id": 3,
+    "category": "math",
+    "query": "What is the square root of 144 plus 25?",
+    "expected_intent": "tool-use",
+    "expected_tool": "calculator",
+    "key_elements": ["37", "result"]
+  },
+  {
+    "id": 4,
+    "category": "math",
+    "query": "Evaluate 2^10",
+    "expected_intent": "tool-use",
+    "expected_tool": "calculator",
+    "key_elements": ["1024", "result"]
+  },
+  {
+    "id": 5,
+    "category": "weather",
+    "query": "What is the current weather in London?",
+    "expected_intent": "tool-use",
+    "expected_tool": "weather",
+    "key_elements": ["london", "temperature", "humidity"]
+  },
+  {
+    "id": 6,
+    "category": "weather",
+    "query": "How is the weather in Tokyo today?",
+    "expected_intent": "tool-use",
+    "expected_tool": "weather",
+    "key_elements": ["tokyo", "temperature"]
+  },
+  {
+    "id": 7,
+    "category": "weather",
+    "query": "Tell me the temperature in Delhi",
+    "expected_intent": "tool-use",
+    "expected_tool": "weather",
+    "key_elements": ["delhi", "temperature"]
+  },
+  {
+    "id": 8,
+    "category": "weather",
+    "query": "What is the weather forecast for Paris?",
+    "expected_intent": "tool-use",
+    "expected_tool": "weather",
+    "key_elements": ["paris", "weather"]
+  },
+  {
+    "id": 9,
+    "category": "definition",
+    "query": "Define serendipity",
+    "expected_intent": "tool-use",
+    "expected_tool": "dictionary",
+    "key_elements": ["serendipity", "chance", "fluke"]
+  },
+  {
+    "id": 10,
+    "category": "definition",
+    "query": "What is the meaning of resilient?",
+    "expected_intent": "tool-use",
+    "expected_tool": "dictionary",
+    "key_elements": ["resilient", "recover", "difficult"]
+  },
+  {
+    "id": 11,
+    "category": "definition",
+    "query": "What are the synonyms for benevolent?",
+    "expected_intent": "tool-use",
+    "expected_tool": "dictionary",
+    "key_elements": ["benevolent", "kind", "generous"]
+  },
+  {
+    "id": 12,
+    "category": "definition",
+    "query": "Definition of ephemeral",
+    "expected_intent": "tool-use",
+    "expected_tool": "dictionary",
+    "key_elements": ["ephemeral", "time", "fleeting"]
+  },
+  {
+    "id": 13,
+    "category": "wikipedia",
+    "query": "Search wikipedia for Alan Turing",
+    "expected_intent": "tool-use",
+    "expected_tool": "wikipedia",
+    "key_elements": ["alan turing", "mathematician", "computer"]
+  },
+  {
+    "id": 14,
+    "category": "wikipedia",
+    "query": "Who was Albert Einstein according to wikipedia?",
+    "expected_intent": "tool-use",
+    "expected_tool": "wikipedia",
+    "key_elements": ["albert einstein", "physicist", "relativity"]
+  },
+  {
+    "id": 15,
+    "category": "general_chat",
+    "query": "Hello there, can you introduce yourself and tell me what you can do?",
+    "expected_intent": "chit-chat",
+    "expected_tool": null,
+    "key_elements": ["hello", "assistant", "tools"]
+  }
+]
